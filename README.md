@@ -6,7 +6,6 @@ Add this line to your application's Gemfile:
 ## Installation
 ```ruby
 gem 'bank_db'
-bundle
 ```
 
 Or install it yourself as:
