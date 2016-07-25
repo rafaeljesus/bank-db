@@ -6,9 +6,9 @@
 
 * Bank models shared by bank api
 
-Add this line to your application's Gemfile:
-
 ## Installation
+
+Add this line to your application's Gemfile:
 ```ruby
 gem 'bank_db'
 ```
