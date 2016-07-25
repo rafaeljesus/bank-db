@@ -1,3 +1,3 @@
-module Bank
-  VERSION = '0.1.2'
+module BankDb
+  VERSION = '0.1.3'
 end
