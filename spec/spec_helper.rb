@@ -5,7 +5,7 @@ require 'codeclimate-test-reporter'
 ENV['ENVIRONMENT'] = 'test'
 
 require_relative '../config/setup'
-require 'bank'
+require 'bank_db'
 
 CodeClimate::TestReporter.start
 

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Bank db shared in bank api}
   spec.description   = %q{Bank db shared in bank api}
-  spec.homepage      = "https://github.com/rafaeljesus/bank_db"
+  spec.homepage      = "https://github.com/rafaeljesus/bank-db"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -22,4 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_dependency 'mongoid'
 end
