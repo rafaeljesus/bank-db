@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bank/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bank"
+  spec.name          = "bank_db"
   spec.version       = Bank::VERSION
   spec.authors       = ["Rafael Jesus"]
   spec.email         = ["rafaelljesus86@gmail.com"]
