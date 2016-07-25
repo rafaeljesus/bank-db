@@ -5,7 +5,7 @@ require 'bank/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bank"
-  spec.version       = BankDb::VERSION
+  spec.version       = Bank::VERSION
   spec.authors       = ["Rafael Jesus"]
   spec.email         = ["rafaelljesus86@gmail.com"]
 
