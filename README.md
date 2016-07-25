@@ -1,6 +1,11 @@
 # Bank Db
 
+[![CircleCI](https://circleci.com/gh/rafaeljesus/bank-db.svg?style=svg)](https://circleci.com/gh/rafaeljesus/bank-db)
+[![Code Climate](https://codeclimate.com/github/rafaeljesus/bank-db/badges/gpa.svg)](https://codeclimate.com/github/rafaeljesus/bank-db)
+[![Issue Count](https://codeclimate.com/github/rafaeljesus/bank-db/badges/issue_count.svg)](https://codeclimate.com/github/rafaeljesus/bank-db)
+
 * Bank models shared by bank api
+
 Add this line to your application's Gemfile:
 
 ## Installation
