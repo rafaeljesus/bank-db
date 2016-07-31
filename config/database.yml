@@ -1,0 +1,13 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: utf-8
+  pool: 5
+  min_messages: warning
+
+development:
+  <<: *defaults
+  database: bank_development
+
+test:
+  <<: *defaults
+  database: bank_test

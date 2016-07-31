@@ -1,11 +1,11 @@
 require 'bundler/setup'
 require 'yaml'
-require 'mongoid'
+require 'active_record'
 
 ENVIRONMENT = ENV['ENVIRONMENT'] || 'development'
 
-$LOAD_PATH.unshift File.expand_path '../../lib', __FILE__
-mongo_file = File.expand_path '../mongoid.yml', __FILE__
+$LOAD_PATH.unshift(File.expand_path('../../lib', __FILE__))
 
-Mongoid.load!(mongo_file, ENVIRONMENT)
-Mongoid.raise_not_found_error = false
+db_config = YAML::load(File.open('config/database.yml'))
+
+ActiveRecord::Base.establish_connection(db_config[ENVIRONMENT])

@@ -4,7 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/rafaeljesus/bank-db/badges/gpa.svg)](https://codeclimate.com/github/rafaeljesus/bank-db)
 [![Issue Count](https://codeclimate.com/github/rafaeljesus/bank-db/badges/issue_count.svg)](https://codeclimate.com/github/rafaeljesus/bank-db)
 
-* Bank models shared by [bank](https://github.com/rafaeljesus/bank) api
+* Bank entities shared by [bank](https://github.com/rafaeljesus/bank) api
 
 ## Installation
 
