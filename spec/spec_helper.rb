@@ -2,7 +2,6 @@ require 'rubygems'
 require 'bundler'
 require 'codeclimate-test-reporter'
 require 'active_record'
-# require 'factory_girl'
 
 ENV['ENVIRONMENT'] = 'test'
 
