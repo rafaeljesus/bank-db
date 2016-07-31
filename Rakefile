@@ -12,7 +12,8 @@ ENVIRONMENT = ENV['ENVIRONMENT'] || 'development'
 # rake g:migration your_migration # generates a new migration file
 #
 namespace :db do
-  db_config = YAML::load(File.open('config/database.yml'))
+  db_path = File.expand_path('config/database.yml', __FILE__)
+  db_config = YAML::load(File.open(db_path))
   db_config_admin = db_config.merge({'schema_search_path' => 'public'})
 
   desc 'Create the database'
