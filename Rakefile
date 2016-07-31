@@ -13,7 +13,7 @@ ENVIRONMENT = ENV['ENVIRONMENT'] || 'development'
 #
 namespace :db do
   db_config = YAML::load(File.open('config/database.yml'))
-  db_config_admin = db_config.merge({'database' => 'postgres', 'schema_search_path' => 'public'})
+  db_config_admin = db_config.merge({'schema_search_path' => 'public'})
 
   desc 'Create the database'
   task :create do

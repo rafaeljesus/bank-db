@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 gem 'pg'
-gem 'activerecord'
+gem 'activerecord', '~> 4.2', '>= 4.2.6'
 gem 'bcrypt'
 gem 'rake'
 
